@@ -484,11 +484,6 @@ body.dark .project-card:hover {
 }
 
 
-/* ===========================
-      RESPONSIVE DESIGN
-   =========================== */
-
-/* ----- Large Tablets & Small Laptops (max 1024px) ----- */
 @media (max-width: 1024px) {
   main {
     padding: 1rem 1.5rem 2rem;
