@@ -482,3 +482,172 @@ body.dark .project-card:hover {
     box-shadow: 0 0 6px #0456a9;
   }
 }
+
+
+/* ===========================
+      RESPONSIVE DESIGN
+   =========================== */
+
+/* ----- Large Tablets & Small Laptops (max 1024px) ----- */
+@media (max-width: 1024px) {
+  main {
+    padding: 1rem 1.5rem 2rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .bottom-nav {
+    width: 45%;
+    gap: 2rem;
+  }
+
+  .avatar img {
+    width: 300px;
+    height: 260px;
+  }
+}
+
+/* ----- Tablets (max 768px) ----- */
+@media (max-width: 768px) {
+  header {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  main h1 {
+    font-size: 2.4rem;
+  }
+
+  main h2 {
+    font-size: 1.3rem;
+  }
+
+  .social-nav {
+    gap: 3rem;
+  }
+
+  .social-nav i {
+    font-size: 35px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .skill-card {
+    width: 200px;
+    height: 130px;
+  }
+
+  .bottom-nav {
+    width: 55%;
+    padding: 0.3rem 0.5rem;
+    gap: 1.8rem;
+  }
+
+  .bottom-nav button {
+    font-size: 1.4rem;
+    width: 45px;
+    height: 45px;
+  }
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* ----- Mobile (max 576px) ----- */
+@media (max-width: 576px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .resume-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  main h1 {
+    font-size: 1.9rem;
+  }
+
+  #typing-text {
+    font-size: 1.2rem;
+  }
+
+  .intro-text {
+    padding: 0 1rem;
+    font-size: 0.9rem;
+  }
+
+  .social-nav {
+    gap: 1.5rem;
+  }
+
+  .social-nav i {
+    font-size: 28px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-card {
+    width: 90%;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card img {
+    height: 180px;
+  }
+
+  .bottom-nav {
+    width: 85%;
+    bottom: 0.5rem;
+    gap: 1.2rem;
+  }
+
+  .bottom-nav button {
+    font-size: 1.3rem;
+    width: 42px;
+    height: 42px;
+  }
+
+  .avatar {
+    width: 140px;
+    height: 140px;
+  }
+
+  .avatar img {
+    width: 250px;
+    height: 200px;
+  }
+}
+
+/* ----- Extra Small Mobile (max 400px) ----- */
+@media (max-width: 400px) {
+  main h1 {
+    font-size: 1.6rem;
+  }
+  .bottom-nav {
+    width: 95%;
+    gap: 1rem;
+  }
+  .bottom-nav button {
+    font-size: 1.2rem;
+    width: 40px;
+    height: 40px;
+  }
+  #typing-text {
+    font-size: 1rem;
+  }
+}
